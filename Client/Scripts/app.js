@@ -15,4 +15,10 @@
     }
     window.addEventListener("load", Start);
 })();
+
+document.getElementById("redirect").onclick = function(){
+    console.log("it is working");
+    confirm("You will be redirected to Home Page");
+    location.href = "localhost:3000/home";
+};
 //# sourceMappingURL=app.js.map
