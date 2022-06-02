@@ -1,3 +1,9 @@
+/*
+COMP229 Express Portfolio
+Ricardo Lopez
+Student ID: 301167302
+June 2, 2022
+*/
 "use strict";
 (function () {
     function Start() {
@@ -16,6 +22,8 @@
     window.addEventListener("load", Start);
 })();
 
+
+//submit button on click event and alert
 document.getElementById("redirect").onclick = function(){
     console.log("it is working");
     confirm("You will be redirected to Home Page");
