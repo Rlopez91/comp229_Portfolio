@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "start": "node server.js",
-    "build": "mc-scripts build"
+    "build": "tsc"
   },
   "engines": {
     "node": "18.1.0",
