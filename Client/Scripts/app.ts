@@ -12,7 +12,7 @@
         let XHR = new XMLHttpRequest();
 
         // Step 2: Create the request
-        XHR.open("GET", "../data/data.json");
+        XHR.open("GET", "../Data/data.json");
 
         // Step 3: Send the request
         XHR.send();
